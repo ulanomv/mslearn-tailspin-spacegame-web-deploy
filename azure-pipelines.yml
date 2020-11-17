@@ -87,5 +87,6 @@ stages:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
-          - script: 'echo "Link to web app: $(WebAppName)'
+          - script: 'echo "Link to web app: $(WebAppName)" '
             displayName: 'Write link to the Web App'
+          
